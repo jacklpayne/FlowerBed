@@ -1,0 +1,7 @@
+"Comment","Designator","Footprint","LCSC Part #"
+"1uF","C1,C2","0402","C52923" 
+"22uF","C3,C4","0805","C45783"
+"1k","R1,R2","0402","C11702" [change to 0402]
+"100","R3","0402","C173685" [change footprint to 0402]
+"PAM8302AASCR","U1","MSOP-8","C113367"
+"10k","VR1","Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical","C36376"

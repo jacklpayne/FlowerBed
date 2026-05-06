@@ -1,0 +1,15 @@
+### Footprint positions - created on 2026-04-01T08:23:16-0400 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                           Package                                                 PosX       PosY       Rot  Side
+C1        1uF                           C_0402_1005Metric                                   137.4000  -122.4000  180.0000  top
+C2        1uF                           C_0402_1005Metric                                   149.3000  -120.8000    0.0000  top
+C3        47uf                          C_0805_2012Metric                                   150.9000  -122.9000    0.0000  top
+C4        47uf                          C_0805_2012Metric                                   142.2400   -77.7900   90.0000  top
+R1        1k                            R_0201_0603Metric                                   131.9170  -109.2200  180.0000  top
+R2        1k                            R_0201_0603Metric                                   131.9170  -104.1400  180.0000  top
+R3        100                           R_0402_1005Metric                                   139.8000  -122.4000    0.0000  top
+U1        PAM8302AASCR                  MSOP-8_3x3mm_P0.65mm                                144.3000  -122.2000    0.0000  top
+VR1       10K_trim                      Potentiometer_Bourns_3314J_Vertical                 138.5000  -117.6000    0.0000  top
+## End
