@@ -518,13 +518,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -682,7 +683,7 @@
         "uuid": "6c42305b-2e34-44b7-bbb0-fba7dc748648"
       }
     ],
-    "used_designators": "U4-5,R9-14,#PWR12,#PWR14-15,#PWR17,C8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
