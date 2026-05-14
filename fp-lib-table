@@ -1,4 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "FlowerbedLib")(type "KiCad")(uri "${KIPRJMOD}/FlowerbedLib.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "FlowerbedLib") (type "KiCad") (uri "${KIPRJMOD}/FlowerbedLib.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
+	(lib (name "Flowerbed") (type "KiCad") (uri "${KIPRJMOD}/lib/Flowerbed.pretty") (options "") (descr ""))
 )
