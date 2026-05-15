@@ -5110,6 +5110,16 @@
 		)
 		(uuid "0cd5ddae-d2bc-4050-b41b-9910955d6c01")
 	)
+	(text "Potential problem here. Without USB PD, source COULD \nprovide ex. 1.5A or 3A capability. If that's drawn\nby Daisy + PAM8302 + Pots, it's going to exceed\nthe I(max)=1.25 of the TPS2115A. Potential\nmagic smoke loss. Question is whether\nthis draw will occur.\n"
+		(exclude_from_sim no)
+		(at 342.646 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52ab5787-93f9-42f3-83e1-c0c561e53f76")
+	)
 	(text "5V USB-C Input & Power Mux"
 		(exclude_from_sim no)
 		(at 262.128 18.796 0)
@@ -7448,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 154.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7470,7 +7480,7 @@
 				)
 			)
 		)
-		(property "Description" "C14445"
+		(property "Description" "C15849"
 			(at 154.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7529,7 +7539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 254.9652 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7551,7 +7561,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C15849"
 			(at 254 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7608,7 +7618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7630,7 +7640,7 @@
 				)
 			)
 		)
-		(property "Description" "C14445"
+		(property "Description" "C15849"
 			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8358,7 +8368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400"
+		(property "Value" "510"
 			(at 300.99 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8369,7 +8379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 299.466 42.164 90)
 			(hide yes)
 			(show_name no)
@@ -8391,7 +8401,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "C17734"
 			(at 298.45 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8450,7 +8460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 309.5752 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8472,7 +8482,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C15849"
 			(at 308.61 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8529,7 +8539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.464 144.526 90)
 			(hide yes)
 			(show_name no)
@@ -8551,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "C17414"
 			(at 30.48 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8709,7 +8719,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+		(property "Description" "C165948"
 			(at 281.94 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8861,7 +8871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 262.5852 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8883,7 +8893,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C15849"
 			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8940,7 +8950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8962,7 +8972,7 @@
 				)
 			)
 		)
-		(property "Description" "C76636"
+		(property "Description" "C15525"
 			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9441,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 35.814 144.526 90)
 			(hide yes)
 			(show_name no)
@@ -9463,7 +9473,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "C17414"
 			(at 36.83 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9522,7 +9532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9544,7 +9554,7 @@
 				)
 			)
 		)
-		(property "Description" "C173685"
+		(property "Description" "C17408"
 			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10179,7 +10189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 303.784 83.566 90)
 			(hide yes)
 			(show_name no)
@@ -10201,7 +10211,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "C23186"
 			(at 304.8 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10513,7 +10523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 86.36 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10535,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Description" "C76636"
+		(property "Description" "C12891"
 			(at 86.36 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10924,7 +10934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 296.164 83.566 90)
 			(hide yes)
 			(show_name no)
@@ -10946,7 +10956,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "C23186"
 			(at 297.18 83.82 0)
 			(hide yes)
 			(show_name no)
